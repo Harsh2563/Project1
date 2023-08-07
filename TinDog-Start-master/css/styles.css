@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c67;
+    color: white;
+    
+}
+
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem ;
+    font-weight: bold;
+    font-family: ubuntu;  
+}
+
+ul  {
+    position: absolute;
+    right: 4rem;
+}
+
+.download-button {
+    margin:3% 1%;
+}
+
+.image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.nav-link {
+    margin: 0 1rem 0 1rem;
+}
+
+#features{
+    padding: 7rem 13rem;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.box {
+    text-align: center;
+    padding: 3rem;
+}
+
+h3 {
+    font-family:'Montserrat-Bold';
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight:bolder;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.box h1 {
+    color: #ef8172;
+}
+
+.box h1:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color:#ef8172 ;
+    padding: 7rem 0 7rem 0;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 10%;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+#press {
+    background-color:#ef8172 ;
+    text-align: center;
+}
+
+.press-img {
+    width: 250px;
+    padding: 3rem;
+}
+.carouse-button {
+    padding: 7rem 13rem 5rem 13rem;
+}
+#testimonials h2 {
+    padding: 0 13rem 0 13rem;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card-column {
+    padding: 3%;
+
+}
+
+@media (max-width : 991px) {
+    .image {
+        position: static;
+        transform: rotate(0);
+    }
+        #title {
+            text-align: center;
+        }
+}
+
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: 'Montserrat-Black';
+    padding: 4%;
+    color: white;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    width: 50rem;
+    margin-left: 16rem;
+    
+}
+
+
+.lower-button {
+    margin:3% 1%;
+
+}
+ 
+#footer {
+    padding: 7rem;
+    background-color: white;
+    text-align: center;
+}
+
+.tags {
+    margin: 20px 10px;
+}
